@@ -1,0 +1,2 @@
+# Journite-DesafioFinal
+Projeto desenvolvido para a entrega da parte final do Swift Explorations, oferecido pelo Instituto Eldorado do nível júnior(consegue navegar entre todas as funcionalidades).  Journite(Journey + Unite) reflete jornada conjunta proposta após a experiência com duas universidades(UNESP E UFABC) que possuem a dificuldade de encontros para carona. Consta de geolocalização, descrição da experiência e registro da carona.
