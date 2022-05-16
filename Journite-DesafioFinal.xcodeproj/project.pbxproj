@@ -7,25 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531F5455282DBF2F0079BAC2 /* Avaliacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F5454282DBF2F0079BAC2 /* Avaliacao.swift */; };
+		533059B8282E90A5006E4F09 /* AddressesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059B7282E90A5006E4F09 /* AddressesTableViewController.swift */; };
+		533059BA282E929A006E4F09 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533059B9282E929A006E4F09 /* Address.swift */; };
+		53324C412829D6AC002A5B13 /* Aluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53324C402829D6AC002A5B13 /* Aluno.swift */; };
+		53324C432829D6C6002A5B13 /* Carona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53324C422829D6C6002A5B13 /* Carona.swift */; };
+		53324C472829D728002A5B13 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53324C462829D728002A5B13 /* Categoria.swift */; };
+		53324C4A2829E225002A5B13 /* CaronaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53324C492829E225002A5B13 /* CaronaTableViewCell.swift */; };
+		533296C5282C431500E2A392 /* CategoriasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533296C4282C431500E2A392 /* CategoriasTableViewController.swift */; };
+		533296CA282C45AE00E2A392 /* CategoriaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533296C9282C45AE00E2A392 /* CategoriaRepository.swift */; };
+		533D5A8D282B693900BAA992 /* StarRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D5A8C282B693900BAA992 /* StarRatingViewController.swift */; };
 		534161C22829AED7006C7120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534161C12829AED7006C7120 /* AppDelegate.swift */; };
 		534161C42829AED7006C7120 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534161C32829AED7006C7120 /* SceneDelegate.swift */; };
-		534161C62829AED7006C7120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534161C52829AED7006C7120 /* ViewController.swift */; };
 		534161C92829AED7006C7120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534161C72829AED7006C7120 /* Main.storyboard */; };
 		534161CC2829AED7006C7120 /* Journite_DesafioFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 534161CA2829AED7006C7120 /* Journite_DesafioFinal.xcdatamodeld */; };
 		534161CE2829AED9006C7120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534161CD2829AED9006C7120 /* Assets.xcassets */; };
 		534161D12829AED9006C7120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534161CF2829AED9006C7120 /* LaunchScreen.storyboard */; };
+		534161DA2829B683006C7120 /* CaronaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534161D92829B683006C7120 /* CaronaTableViewController.swift */; };
+		5348595E282B1BB400F39FD8 /* CriarCaronaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348595D282B1BB400F39FD8 /* CriarCaronaViewController.swift */; };
+		53485960282B1FA500F39FD8 /* NomeAlunoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348595F282B1FA500F39FD8 /* NomeAlunoTableViewCell.swift */; };
+		53485962282B1FDA00F39FD8 /* RaAlunoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485961282B1FDA00F39FD8 /* RaAlunoTableViewCell.swift */; };
+		53485964282B1FF300F39FD8 /* FaculdadeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485963282B1FF300F39FD8 /* FaculdadeTableViewCell.swift */; };
+		53485966282B204E00F39FD8 /* LocalInicioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485965282B204E00F39FD8 /* LocalInicioTableViewCell.swift */; };
+		53485968282B205E00F39FD8 /* LocalFimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485967282B205E00F39FD8 /* LocalFimTableViewCell.swift */; };
+		5348596A282B207700F39FD8 /* CategoriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485969282B207700F39FD8 /* CategoriaTableViewCell.swift */; };
+		5348596C282B210100F39FD8 /* AcompanhantesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348596B282B210100F39FD8 /* AcompanhantesTableViewCell.swift */; };
+		5348596E282B219A00F39FD8 /* LotacaoMaximaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348596D282B219A00F39FD8 /* LotacaoMaximaTableViewCell.swift */; };
+		53485970282B21AB00F39FD8 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348596F282B21AB00F39FD8 /* DataTableViewCell.swift */; };
+		53485972282B21C200F39FD8 /* PrecoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485971282B21C200F39FD8 /* PrecoTableViewCell.swift */; };
+		53485974282B24A500F39FD8 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53485973282B24A500F39FD8 /* MapaViewController.swift */; };
+		53537075282C9C9D006D4AFE /* CaronaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53537074282C9C9D006D4AFE /* CaronaRepository.swift */; };
+		88257CC712FD1707036109B9 /* Pods_Journite_DesafioFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F719BB0A8D4E6DAA8AD5DB /* Pods_Journite_DesafioFinal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50F719BB0A8D4E6DAA8AD5DB /* Pods_Journite_DesafioFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journite_DesafioFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531F5454282DBF2F0079BAC2 /* Avaliacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avaliacao.swift; sourceTree = "<group>"; };
+		533059B7282E90A5006E4F09 /* AddressesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesTableViewController.swift; sourceTree = "<group>"; };
+		533059B9282E929A006E4F09 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		53324C402829D6AC002A5B13 /* Aluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aluno.swift; sourceTree = "<group>"; };
+		53324C422829D6C6002A5B13 /* Carona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carona.swift; sourceTree = "<group>"; };
+		53324C462829D728002A5B13 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		53324C492829E225002A5B13 /* CaronaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaronaTableViewCell.swift; sourceTree = "<group>"; };
+		533296C4282C431500E2A392 /* CategoriasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasTableViewController.swift; sourceTree = "<group>"; };
+		533296C9282C45AE00E2A392 /* CategoriaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaRepository.swift; sourceTree = "<group>"; };
+		533D5A8C282B693900BAA992 /* StarRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingViewController.swift; sourceTree = "<group>"; };
 		534161BE2829AED7006C7120 /* Journite-DesafioFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journite-DesafioFinal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		534161C12829AED7006C7120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		534161C32829AED7006C7120 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		534161C52829AED7006C7120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		534161C82829AED7006C7120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		534161CB2829AED7006C7120 /* Journite_DesafioFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Journite_DesafioFinal.xcdatamodel; sourceTree = "<group>"; };
 		534161CD2829AED9006C7120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		534161D02829AED9006C7120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		534161D22829AED9006C7120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534161D92829B683006C7120 /* CaronaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaronaTableViewController.swift; sourceTree = "<group>"; };
+		5348595D282B1BB400F39FD8 /* CriarCaronaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarCaronaViewController.swift; sourceTree = "<group>"; };
+		5348595F282B1FA500F39FD8 /* NomeAlunoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomeAlunoTableViewCell.swift; sourceTree = "<group>"; };
+		53485961282B1FDA00F39FD8 /* RaAlunoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaAlunoTableViewCell.swift; sourceTree = "<group>"; };
+		53485963282B1FF300F39FD8 /* FaculdadeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaculdadeTableViewCell.swift; sourceTree = "<group>"; };
+		53485965282B204E00F39FD8 /* LocalInicioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalInicioTableViewCell.swift; sourceTree = "<group>"; };
+		53485967282B205E00F39FD8 /* LocalFimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFimTableViewCell.swift; sourceTree = "<group>"; };
+		53485969282B207700F39FD8 /* CategoriaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaTableViewCell.swift; sourceTree = "<group>"; };
+		5348596B282B210100F39FD8 /* AcompanhantesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcompanhantesTableViewCell.swift; sourceTree = "<group>"; };
+		5348596D282B219A00F39FD8 /* LotacaoMaximaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotacaoMaximaTableViewCell.swift; sourceTree = "<group>"; };
+		5348596F282B21AB00F39FD8 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		53485971282B21C200F39FD8 /* PrecoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecoTableViewCell.swift; sourceTree = "<group>"; };
+		53485973282B24A500F39FD8 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		53537074282C9C9D006D4AFE /* CaronaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaronaRepository.swift; sourceTree = "<group>"; };
+		AF1BE12748BED55E442815D5 /* Pods-Journite-DesafioFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journite-DesafioFinal.debug.xcconfig"; path = "Target Support Files/Pods-Journite-DesafioFinal/Pods-Journite-DesafioFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3B4FF0A10AE7F45A2E4540 /* Pods-Journite-DesafioFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journite-DesafioFinal.release.xcconfig"; path = "Target Support Files/Pods-Journite-DesafioFinal/Pods-Journite-DesafioFinal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +83,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88257CC712FD1707036109B9 /* Pods_Journite_DesafioFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E72CDB4E6E2F7EBF3DAC1A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF1BE12748BED55E442815D5 /* Pods-Journite-DesafioFinal.debug.xcconfig */,
+				BA3B4FF0A10AE7F45A2E4540 /* Pods-Journite-DesafioFinal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		533059BF282F7110006E4F09 /* Carona */ = {
+			isa = PBXGroup;
+			children = (
+				53324C492829E225002A5B13 /* CaronaTableViewCell.swift */,
+				5348595F282B1FA500F39FD8 /* NomeAlunoTableViewCell.swift */,
+				53485961282B1FDA00F39FD8 /* RaAlunoTableViewCell.swift */,
+				53485963282B1FF300F39FD8 /* FaculdadeTableViewCell.swift */,
+				53485965282B204E00F39FD8 /* LocalInicioTableViewCell.swift */,
+				53485967282B205E00F39FD8 /* LocalFimTableViewCell.swift */,
+				53485969282B207700F39FD8 /* CategoriaTableViewCell.swift */,
+				5348596B282B210100F39FD8 /* AcompanhantesTableViewCell.swift */,
+				5348596D282B219A00F39FD8 /* LotacaoMaximaTableViewCell.swift */,
+				5348596F282B21AB00F39FD8 /* DataTableViewCell.swift */,
+				53485971282B21C200F39FD8 /* PrecoTableViewCell.swift */,
+			);
+			path = Carona;
+			sourceTree = "<group>";
+		};
+		53324C482829E1FA002A5B13 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				533059BF282F7110006E4F09 /* Carona */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		533296C6282C451F00E2A392 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				533296C9282C45AE00E2A392 /* CategoriaRepository.swift */,
+				53537074282C9C9D006D4AFE /* CaronaRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		534161B52829AED7006C7120 = {
 			isa = PBXGroup;
 			children = (
 				534161C02829AED7006C7120 /* Journite-DesafioFinal */,
 				534161BF2829AED7006C7120 /* Products */,
+				3E72CDB4E6E2F7EBF3DAC1A7 /* Pods */,
+				BA9046419BFEBF70ED605202 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +155,11 @@
 		534161C02829AED7006C7120 /* Journite-DesafioFinal */ = {
 			isa = PBXGroup;
 			children = (
+				533296C6282C451F00E2A392 /* Repositories */,
+				534161FC2829D336006C7120 /* Models */,
+				534161D82829B611006C7120 /* Controllers */,
 				534161C12829AED7006C7120 /* AppDelegate.swift */,
 				534161C32829AED7006C7120 /* SceneDelegate.swift */,
-				534161C52829AED7006C7120 /* ViewController.swift */,
 				534161C72829AED7006C7120 /* Main.storyboard */,
 				534161CD2829AED9006C7120 /* Assets.xcassets */,
 				534161CF2829AED9006C7120 /* LaunchScreen.storyboard */,
@@ -70,6 +169,40 @@
 			path = "Journite-DesafioFinal";
 			sourceTree = "<group>";
 		};
+		534161D82829B611006C7120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53324C482829E1FA002A5B13 /* Cells */,
+				534161D92829B683006C7120 /* CaronaTableViewController.swift */,
+				5348595D282B1BB400F39FD8 /* CriarCaronaViewController.swift */,
+				53485973282B24A500F39FD8 /* MapaViewController.swift */,
+				533D5A8C282B693900BAA992 /* StarRatingViewController.swift */,
+				533296C4282C431500E2A392 /* CategoriasTableViewController.swift */,
+				533059B7282E90A5006E4F09 /* AddressesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		534161FC2829D336006C7120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53324C402829D6AC002A5B13 /* Aluno.swift */,
+				53324C422829D6C6002A5B13 /* Carona.swift */,
+				53324C462829D728002A5B13 /* Categoria.swift */,
+				531F5454282DBF2F0079BAC2 /* Avaliacao.swift */,
+				533059B9282E929A006E4F09 /* Address.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA9046419BFEBF70ED605202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F719BB0A8D4E6DAA8AD5DB /* Pods_Journite_DesafioFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 534161D52829AED9006C7120 /* Build configuration list for PBXNativeTarget "Journite-DesafioFinal" */;
 			buildPhases = (
+				CDF50259AB68D060B9E4EF16 /* [CP] Check Pods Manifest.lock */,
 				534161BA2829AED7006C7120 /* Sources */,
 				534161BB2829AED7006C7120 /* Frameworks */,
 				534161BC2829AED7006C7120 /* Resources */,
+				2519127B00A8D86D36F95822 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +271,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2519127B00A8D86D36F95822 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Journite-DesafioFinal/Pods-Journite-DesafioFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Journite-DesafioFinal/Pods-Journite-DesafioFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Journite-DesafioFinal/Pods-Journite-DesafioFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF50259AB68D060B9E4EF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Journite-DesafioFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		534161BA2829AED7006C7120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				534161C62829AED7006C7120 /* ViewController.swift in Sources */,
+				5348596C282B210100F39FD8 /* AcompanhantesTableViewCell.swift in Sources */,
+				53485968282B205E00F39FD8 /* LocalFimTableViewCell.swift in Sources */,
+				53485960282B1FA500F39FD8 /* NomeAlunoTableViewCell.swift in Sources */,
 				534161C22829AED7006C7120 /* AppDelegate.swift in Sources */,
+				53324C432829D6C6002A5B13 /* Carona.swift in Sources */,
+				53537075282C9C9D006D4AFE /* CaronaRepository.swift in Sources */,
+				5348596E282B219A00F39FD8 /* LotacaoMaximaTableViewCell.swift in Sources */,
+				53324C472829D728002A5B13 /* Categoria.swift in Sources */,
+				5348596A282B207700F39FD8 /* CategoriaTableViewCell.swift in Sources */,
+				53324C4A2829E225002A5B13 /* CaronaTableViewCell.swift in Sources */,
+				53485966282B204E00F39FD8 /* LocalInicioTableViewCell.swift in Sources */,
+				53324C412829D6AC002A5B13 /* Aluno.swift in Sources */,
+				531F5455282DBF2F0079BAC2 /* Avaliacao.swift in Sources */,
+				534161DA2829B683006C7120 /* CaronaTableViewController.swift in Sources */,
 				534161CC2829AED7006C7120 /* Journite_DesafioFinal.xcdatamodeld in Sources */,
+				53485970282B21AB00F39FD8 /* DataTableViewCell.swift in Sources */,
+				53485972282B21C200F39FD8 /* PrecoTableViewCell.swift in Sources */,
+				53485962282B1FDA00F39FD8 /* RaAlunoTableViewCell.swift in Sources */,
+				533059BA282E929A006E4F09 /* Address.swift in Sources */,
+				5348595E282B1BB400F39FD8 /* CriarCaronaViewController.swift in Sources */,
+				53485974282B24A500F39FD8 /* MapaViewController.swift in Sources */,
+				533296CA282C45AE00E2A392 /* CategoriaRepository.swift in Sources */,
+				533D5A8D282B693900BAA992 /* StarRatingViewController.swift in Sources */,
 				534161C42829AED7006C7120 /* SceneDelegate.swift in Sources */,
+				53485964282B1FF300F39FD8 /* FaculdadeTableViewCell.swift in Sources */,
+				533296C5282C431500E2A392 /* CategoriasTableViewController.swift in Sources */,
+				533059B8282E90A5006E4F09 /* AddressesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +486,7 @@
 		};
 		534161D62829AED9006C7120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1BE12748BED55E442815D5 /* Pods-Journite-DesafioFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +515,7 @@
 		};
 		534161D72829AED9006C7120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3B4FF0A10AE7F45A2E4540 /* Pods-Journite-DesafioFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
